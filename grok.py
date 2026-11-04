@@ -14,8 +14,8 @@ from PIL import Image, ImageOps
 
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
-DEFAULT_TEXT_MODEL = "openai/gpt-oss-120b"
-DEFAULT_VISION_MODEL = "qwen/qwen3.8-27b"
+DEFAULT_TEXT_MODEL = "llama-3.3-70b-versatile"
+DEFAULT_VISION_MODEL = "llama-3.2-11b-vision-preview"
 
 REQUEST_TIMEOUT = 180
 MAX_ATTEMPTS = 5          # صبر أطول عند حدود المعدل (429) والازدحام
